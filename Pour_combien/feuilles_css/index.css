@@ -1,0 +1,85 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url("/res/polices/Lobster1_4.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+.corps{
+	width: 100%;
+	min-width: 1000px;
+}
+
+h1{
+	font-family: 'Lobster', serif;
+	text-align:center;
+	font-size: 175%;
+	color: #F8F9F9;
+}
+
+.paragraphe_formulaire,.sous-titre{
+	font-family: 'Lobster', serif;
+	color: #F8F9F9;
+}
+
+section{
+	display: inline-block;
+	width: 80%;
+	margin-right: 30px;
+	vertical-align: top;
+	margin-left: 30px;
+	text-align:center;
+}
+
+.commencer_une_partie,.mes_parties{
+	width: 49%;
+}
+
+.conteneur{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ligne_ver{
+	width: 2%;
+}
+
+#ligne_verticale {
+	text-align: center;
+	height: 1134px;
+	border-right: 1px solid #EBEE9A;
+}
+
+.partie_commence{
+	font-family: 'Lobster', serif;
+	font-size: 115%;
+	text-align: center;
+	color:#009B10;
+}
+
+.partie_pas_commence{
+	font-family: 'Lobster', serif;
+	font-size: 115%;
+	text-align: center;
+	color:red;
+}
+
+
+p{
+	color: #F8F9F9;
+}
+
+hr{
+	color:#EBEE9A;
+	width: 100%;
+}
+
+.bouton_commencer{
+	border-radius: 40px;
+}

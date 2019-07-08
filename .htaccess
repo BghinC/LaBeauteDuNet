@@ -1,0 +1,15 @@
+# ----------- Redirection http vers https
+
+RewriteCond %{HTTP_HOST} labeautedunet\.fr [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.labeautedunet.fr/$1 [R,L]
+
+
+# ----------- Redirection erreur
+
+ErrorDocument 404 /erreurs/erreur_404
+
+# ----------- Redirection si accès demandé au dossier ou sous-element de "A_include"
+
+#RedirectMatch 301 ^/A_include/.* https://www.labeautedunet.fr/erreurs/erreur_404
+#Ne pas utiliser car dans A_include se trouvent les fichiers pour le traitement_like et traitement_signaler

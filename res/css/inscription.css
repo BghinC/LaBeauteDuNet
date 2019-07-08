@@ -1,0 +1,162 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('/res/polices/Lobster1_4.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+.corps{
+	width: 100%;
+	min-width: 1000px;
+}
+
+section{
+	display: inline-block;
+	width: 80%;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+h1,p{
+	width: intrinsic;           /* Safari/WebKit utilisent un nom non-standard */
+  	width: -moz-max-content;    /* Firefox/Gecko */
+  	width: -webkit-max-content; /* Chrome */
+  	margin:1em auto;
+}
+
+h1{
+	font-family: 'Lobster', serif;
+	font-size: 175%;
+	color : #F8F9F9;
+}
+
+.reseaux{
+	display: flex;
+	justify-content: center;
+}
+
+.element{
+	display: flex;
+	align-items: center;
+	margin: 0 0 0 1em;
+}
+
+.infobulle{
+	transform : scale(0) rotateX(-180deg);
+	position : absolute;
+	background-color : #2e3048;
+	color : white;
+	border-radius : 5px;
+	padding : 8px;
+	margin-top : 10px;
+	box-shadow : 1px 1px 0 0.5px rgba(0,0,0,0.3);
+	border-bottom : 3px solid rgba(255,255,255,0.3);
+	border-left : 10px solid transparent;
+	border-right : 10px solid transparent;
+	transition : 1s;
+}
+
+.infobulle::before{
+	content : '';
+	position : absolute;
+	border-bottom : 8px solid #2e3048;
+	border-left : 8px solid transparent;
+	border-right : 8px solid transparent;
+	margin-top : -16px;
+	margin-left : 10px;
+}
+.element:hover > .infobulle{
+	transform : scale(1) rotateX(0deg);
+}
+
+a{
+	text-decoration: underline;
+	color : #FFFFFF;
+}
+
+.paragraphe_formulaire{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	color : #F8F9F9;
+}
+
+#paragraphe_checkbox{
+	font-family: 'Lobster', serif;
+	font-size: 100%;
+	color : #F8F9F9;
+}
+
+.id_incorrect{
+	font-family: 'Lobster', serif;
+	color:red;
+}
+
+.paragraphe_champs_obligatoire{
+	font-family: 'Lobster', serif;
+	font-size: 75%;
+	color : #F8F9F9;
+}
+
+.info_supplementaire{
+	color: #F8F9F9;
+}
+
+label{
+	font-family: 'Lobster', serif;
+	font-size:80%;
+}
+
+input{
+	border-radius: 10px;
+	font-family: 'Lobster', serif;
+}
+
+#formulaire_inscription{
+	text-align: center;
+}
+
+#bouton_inscription{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	margin-top: 15px;
+}
+
+#pseudo,.password,#email{
+	font-family: 'Lobster', serif;
+	font-size: 110%;
+}
+
+.g-recaptcha{
+	margin: auto;
+	width: 305px;
+}
+
+.img_facebook{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 225px;
+}
+
+.mail_envoye{
+	font-family: 'Lobster', serif;
+	text-align: center;
+	color : green;
+}
+
+.lien_mail_envoye{
+	color : green;
+}
+
+.mail_non_envoye{
+	font-family: 'Lobster', serif;
+	text-align: center;
+	color : red;
+}

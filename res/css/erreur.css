@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('/res/polices/Lobster1_4.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+.corps{
+	width: 100%;
+	min-width: 1000px;
+}
+
+h1{
+	font-family: 'Lobster', serif;
+	font-size: 175%;
+	color: #F8F9F9;
+	width: intrinsic;           /* Safari/WebKit utilisent un nom non-standard */
+  	width: -moz-max-content;    /* Firefox/Gecko */
+  	width: -webkit-max-content; /* Chrome */
+  	margin:1em auto;
+}
+
+section{
+	display: inline-block;
+	width: 80%;
+	margin-right: 30px;
+	vertical-align: top;
+	margin-left: 30px;
+}

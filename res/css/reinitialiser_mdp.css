@@ -1,0 +1,87 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('/res/polices/Lobster1_4.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+.corps{
+	width: 100%;
+	min-width: 1000px;
+}
+
+section{
+	display: inline-block;
+	width: 80%;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+h1{
+	font-family: 'Lobster', serif;
+	text-align:center;
+	font-size: 175%;
+	color : #F8F9F9;
+}
+
+.paragraphe_formulaire{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	color : #F8F9F9;
+}
+
+.id_incorrect{
+	font-family: 'Lobster', serif;
+	text-align: center;
+	color:red;
+}
+
+#formulaire_reinitialiser{
+	text-align: center;
+}
+
+input{
+	border-radius: 10px;
+	font-family: 'Lobster', serif;
+}
+
+.info_supplementaire{
+	color: #F8F9F9;
+	font-family: 'Lobster', serif;
+	font-size:80%;
+}
+
+.g-recaptcha{
+	margin: auto;
+	width: 305px;
+	text-align: center;
+}
+
+#bouton_envoyer{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+}
+
+.message_envoye{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	text-align: center;
+	color : green;
+}
+
+.message_envoye_lien{
+	color: green;
+}
+
+.message_non_envoye{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	text-align: center;
+	color : red;
+}

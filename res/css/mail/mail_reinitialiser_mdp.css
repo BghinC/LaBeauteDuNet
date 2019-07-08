@@ -1,0 +1,12 @@
+html,body{
+	margin:0;
+}
+
+div{
+	text-align: center;
+	background-color: #D3D3D3;
+}
+
+.info_sup{
+	font-size: 75%;
+}

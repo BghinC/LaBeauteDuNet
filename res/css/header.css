@@ -1,0 +1,40 @@
+#logo_menu{
+    width:160px;
+    height:160px;
+    text-align: center;
+}
+
+#nav_menu
+{
+    width: 100%;
+    min-width: 1000px;
+}
+
+#nav_menu ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+#nav_menu li
+{
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Lobster', serif;
+}
+
+#nav_menu a
+{
+    font-size: 1.3em;
+    color: lightblue;
+    text-decoration: none;
+}
+
+/*#nav_menu a:hover
+{
+    color: lightblue;
+    /* Soulignement --> border-bottom: 3px solid lightblue;*//*
+}*/
+
+
+/*---------------------Config pour mobile---------------------------*/

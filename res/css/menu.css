@@ -1,0 +1,54 @@
+h2{
+	font-family: 'Lobster', serif;
+	margin-top: 0px;
+	text-align: center;
+	text-decoration: underline;
+	overflow: hidden;
+}
+
+
+.menu{
+	color: #EBEE9A;
+	display: inline-block;
+	width: 11%;
+	margin-top: 69px;
+	margin-left: 20px;
+}
+
+.div_mon_compte{
+	text-align: center;
+	font-family: 'Lobster',serif;
+}
+
+.menu_compte{
+	text-align:center;
+}
+
+.lien_mon_compte{
+	text-decoration: none;
+	color:#EBEE9A;
+	font-size: 90%;
+}
+
+.cat{
+	text-align: center;
+	font-size: 110%;
+}
+
+
+.input_menu{
+	cursor: pointer;
+	background:none;
+	border:none;
+	font-family: 'Lobster',serif;
+	color:#EBEE9A;
+}
+
+hr{
+	color:#EBEE9A;
+	width: 100%;
+}
+
+#profile_picture{
+	cursor : default;
+}

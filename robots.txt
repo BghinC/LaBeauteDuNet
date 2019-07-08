@@ -1,0 +1,19 @@
+Sitemap: http://www.labeautedunet.fr/sitemaps.xml
+
+User-agent: *
+ Disallow: /moderation_video
+ Disallow: /soumettre_une_video
+ Disallow: /activation
+ Disallow: /ajout
+ Disallow: /condition-generale-dutilisation
+ Disallow: /tableau_de_bord
+ Disallow: /reinitialiser_mdp
+ Disallow: /contact
+ Disallow: /classement
+ Disallow: /mes_likes
+ Disallow: /parametres
+ Disallow: /validation_email
+ Disallow: /assets/*
+ Disallow: /erreurs/*
+ Disallow: /res/*
+ Disallow: /Facebook_connexion/*

@@ -1,0 +1,18 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('/res/polices/Lobster1_4.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+h1{
+	font-family: 'Lobster';
+	text-align:center;
+	color : #F8F9F9;
+}

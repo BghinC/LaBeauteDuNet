@@ -1,0 +1,86 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('/res/polices/Lobster1_4.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("/res/img/background.jpg") fixed;
+	background-repeat: repeat;
+}
+
+.corps{
+	width: 100%;
+	min-width: 1000px;
+}
+
+section{
+	display: inline-block;
+	width: 80%;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+h1,p{
+	width: intrinsic;           /* Safari/WebKit utilisent un nom non-standard */
+  	width: -moz-max-content;    /* Firefox/Gecko */
+  	width: -webkit-max-content; /* Chrome */
+  	margin:1em auto;
+}
+
+h1{
+	font-family: 'Lobster', serif;
+	color : #F8F9F9;
+}
+
+.formulaire_parametres{
+	text-align: center;
+}
+
+.paragraphe_formulaire{
+	font-family: 'Lobster', serif;
+	font-size: 120%;
+	color : #F8F9F9;
+}
+
+.input_formulaire_parametre{
+	text-align: center;
+	border-radius: 10px;
+	font-family: 'Lobster', serif;
+	font-size: 110%;
+}
+
+.separation_formulaire{
+	margin-top: 30px;
+	width: 40%;
+}
+
+.valider_changement{
+	border-radius:10px;
+	font-family: 'Lobster', serif;
+	font-size: 110%;
+	cursor: pointer;
+}
+
+.changement_reussi{
+	font-family: 'Lobster', serif;
+	font-size: 115%;
+	color:#009B10;
+}
+
+.changement_rate{
+	font-family: 'Lobster', serif;
+	font-size: 115%;
+	color:red;
+}
+
+.infos_sup_form{
+	color : #F8F9F9;
+}
+
+#paragraphe_checkbox{
+	font-family: 'Lobster', serif;
+	color : #F8F9F9;
+}
